@@ -1,8 +1,8 @@
-import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, CallbackQueryHandler
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = "8306282619:AAGn7ox3ekrrhYxxlBjsUKmWEiiDUGxG5G0"  # <-- Copy-paste করো এখানে
+
 CHANNEL_USERNAME = "@S_RTRADERTEAM_098"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
